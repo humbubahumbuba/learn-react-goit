@@ -7,6 +7,7 @@ import { Statistics } from './Statistics/Statistics';
 export const App = () => {
   return (
     <div>
+      Just one more time
       <Profile
         username={User.username}
         tag={User.tag}
