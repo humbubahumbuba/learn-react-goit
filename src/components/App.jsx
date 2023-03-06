@@ -1,14 +1,16 @@
-import data from '../data/data'
-import User from '../data/user'
-import { Profile } from "./Profile/Profile";
-import { Statistics } from './Statistics/Statistics';
+// import data from '../data/data'
+// import User from '../data/user'
+// import { Profile } from "./Profile/Profile";
+// import { Statistics } from './Statistics/Statistics';
+import Counter from "./Counter/Counter";
 
 
 export const App = () => {
   return (
     <div>
-      Just one more time
-      <Profile
+      <h1>Just one more time on React</h1>
+      <Counter startValue={999} />
+      {/* <Profile
         username={User.username}
         tag={User.tag}
         location={User.location}
@@ -18,8 +20,8 @@ export const App = () => {
         // views={User.stats.views}
         // likes={User.stats.likes}
         
-      />
-      <Statistics title="Upload stats" stats={data} />
+      /> */}
+      {/* <Statistics title="Upload stats" stats={data} /> */}
      
     </div>
   );
