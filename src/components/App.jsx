@@ -2,14 +2,18 @@
 // import User from '../data/user'
 // import { Profile } from "./Profile/Profile";
 // import { Statistics } from './Statistics/Statistics';
-import Counter from "./Counter/Counter";
+// import Counter from "./Counter/Counter";
+// import Dropdown from "./DropDown/Dropdown";
+
 
 
 export const App = () => {
   return (
     <div>
       <h1>Just one more time on React</h1>
-      <Counter startValue={999} />
+      
+       <Dropdown /> 
+      {/* <Counter startValue={999} /> */}
       {/* <Profile
         username={User.username}
         tag={User.tag}
